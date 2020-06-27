@@ -1,107 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <title>Yago Fernandes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Yago Fernandes</title>
 </head>
+
 <body>
-    
-    <header>
-        <div id="logo">
-            <img id="logoimg" src="./assets/images/minhalogo2.png" alt="Logo">
-        </div>
-    </header>
 
-    <nav>
-    
-        <h2>Bem vindo a minha página</h2>
-
-        <p id="p1">
-            Olá, me chamo Yago Fernandes, tenho 20 anos e sou desenvolvedor Web & Mobile. Tenho paixão pelo desenvolvimento de ferramentas
-            e sistemas a fim de resolver os mais diversos problemas, encontrando as melhores soluções possíveis.
-            <br> <br>
-            Abaixo você poderá ver um pouco do meu trabalho e meus contatos. 
-        </p>
-
-        <div class="card-works">
-            <img id="projeto1" class="card-img" src="./assets/images/projeto1.png" >
-            <h3>Home Page Universidade</h3>
-        </div>
-
-        <div class="card-works">
-            <img id="projeto2" class="card-img" src="./assets/images/projeto2.png">
-            <h3>Site para Modelo</h3>
-        </div>
-
-        <div class="card-works">
-            <img id="projeto3" class="card-img" src="./assets/images/projeto3.png">
-            <h3>Blog sobre tecnologia</h3>
-        </div>
-
-        <div class="card-works">
-            <img id="projeto4" class="card-img" src="./assets/images/projeto4.png">
-            <h3>Site para Chalé/Hotel</h3>
-        </div>
-
-        <div class="card-works">
-            <img id="projeto5" class="card-img" src="./assets/images/projeto5.png">
-            <h3>Site de notícias</h3>
-        </div>
-
-        <div class="card-works">
-            <img id="projeto6" class="card-img" src="./assets/images/projeto6.png">
-            <h3>Site de museu</h3>
-        </div>
-
-        <div class="card-works">
-            <video controls>
-                <source src="./assets/video/videocep.mp4" >
-            </video>
-            <h3>API Busca de Cep</h3>
-        </div>
-
-        <hr class="divider">
-
-        <div class="skills">
-            <h3> Meus Conhecimentos</h3>
-            <ul>
-                <li>HTML / CSS / JS</li>
-                <li>Bootstrap</li>
-                <li>JQuery / Ajax</li>
-                <hr class="list-divider">
-                <li>Node.JS</li>
-                <li>PHP</li>
-                <hr class="list-divider">
-                <li>MySQL / SQLite</li>
-                <li>MongoDB</li>
-            </ul>
-        </div>
-
-        <div id="english">
-            <a href="english.html">For the english version, please click here!</a>
-        </div>
-
-        <div class="contact">
-
-            <div class="email">
-                <img id="emailimg" src="./assets/images/email.png" alt="">
-                <h4 style="color: #fff;">yagofdev@gmail.com</h4>
+    <div class="main">
+        <div class="sidebar">
+            <div class="logoplace">
+                <img width="180" src="./assets/images/minhalogo2.png">
             </div>
-                <br>
+
+            <div class="welcome">
+                <h2>Bem vindo a minha página</h2>
+                <p>Olá, me chamo Yago Fernandes, tenho 20 anos e sou desenvolvedor Web & Mobile. Tenho paixão pelo
+                    desenvolvimento de
+                    ferramentas e sistemas a fim de resolver os mais diversos problemas, encontrando as melhores
+                    soluções
+                    possíveis.</p>
+            </div>
+
+            <div class="skills">
+                <h3> <strong>Meus Conhecimentos</strong> </h3>
+                <ul class="liststyle">
+                    <li>HTML / CSS / JS</li>
+                    <li>Bootstrap</li>
+                    <li>JQuery / Ajax</li>
+                    <li>Node.JS</li>
+                    <li>PHP</li>
+                    <li>MySQL / SQLite</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+
             <div class="social">
-                <a target="_blank" href="https://www.linkedin.com/in/yago-fernandes-568790172/"> <img id="linkedin" src="./assets/images/linkedin.png" alt="">  </a>
-                <a target="_blank" href="https://github.com/yvpf"> <img id="git" src="./assets/images/git.png" alt=""> </a>
+                <div class="email">
+                    <i class="fas fa-envelope"></i>
+                    <h4>yagofdev@gmail.com</h4>
+                </div>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/yago-fernandes-568790172/" target="_blank"> <i
+                            class="fab fa-linkedin fa-3x"></i> </a>
+                    <a href="https://github.com/yvpf" target="_blank"> <i class="fab fa-github fa-3x"></i> </a>
+                </div>
             </div>
-                <br>
-            <h4 id="bye">Obrigado pela visita!</h4>
-            
-            
         </div>
-        
-    </nav>
 
+
+        <div class="right-content" id="works">
+            <h2>Alguns dos meus trabalhos</h2>
+
+            <div class="card-work">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./assets/images/projeto1.png" alt="Primeiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 " src="./assets/images/projeto2.png" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/images/projeto3.png" alt="Terceiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/images/projeto4.png" alt="Quarto Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/images/projeto5.png" alt="Quinto Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/images/projeto6.png" alt="Sexto Slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
